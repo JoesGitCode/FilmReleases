@@ -34,15 +34,20 @@ class ReleasesBox extends Component {
         }
     }
 
+    buttonClick(){
+        window.location.href="https://www.imdb.com/calendar/?region=gb"
+    }
+
+
     render(){
         return(
             <Fragment>
                 <h1>Upcoming Film Releases For UK</h1>
                 <ReleasesList films={this.state.films}/>
+                <button onClick={this.buttonClick}>View More Upcoming Releases > ></button>
             </Fragment>
         )
     }
-
 }
 
 export default ReleasesBox

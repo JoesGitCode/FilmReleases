@@ -7,18 +7,24 @@ class ReleasesList extends Component {
 
         const filmTitles = this.props.films.map(film => {
             return (
-                <Film 
-                title={film.title}
-                key={film.id}
-                >
-                </Film>
+                <li>
+                    <a href={film.url}>
+                    <Film 
+                    
+                    title={film.title}
+                    key={film.id}
+                    >
+                    </Film>
+                    </a>
+                </li>
+
             )
         })
 
         return(
             <div className="film">
                 <ul>
-                    <li>{filmTitles}</li>
+                    {filmTitles}
                 </ul>
             </div>
         );
