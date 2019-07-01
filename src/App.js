@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import ReleasesBox from './containers/ReleasesBox';
 
 function App() {
   return (
-    "Hello World"
+    <ReleasesBox/>
   );
 }
 
