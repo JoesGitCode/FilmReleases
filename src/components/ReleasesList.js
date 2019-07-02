@@ -22,7 +22,7 @@ class ReleasesList extends Component {
         })
 
         return(
-            <div className="film">
+            <div className="filmList">
                 <ul>
                     {filmTitles}
                 </ul>

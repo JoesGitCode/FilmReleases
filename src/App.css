@@ -1,15 +1,13 @@
 .App {
   text-align: center;
   background-color: #f1f1f1;
+
 }
 
-h1 {
-  border-bottom: 1px #888585 dotted ;
-}
+
 
 body {
   border: 1px black solid;
-  background-color: #f1f1f1;
   max-width: 50%;
   justify-content: center;
   text-align: center;
@@ -19,6 +17,11 @@ body {
   margin-top: 5%;
 }
 
+.filmList {
+  border-top: 1px #888585 dotted ;
+  border-bottom: 1px #888585 dotted ;
+  margin-bottom: 10px;
+}
 
 li, a {
   text-decoration: none;
